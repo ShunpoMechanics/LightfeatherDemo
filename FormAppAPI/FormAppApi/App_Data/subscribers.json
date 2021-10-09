@@ -1,0 +1,114 @@
+[
+  {
+    "SupervisorId": 0,
+    "Id": 0,
+    "Name": "Christian Bale",
+    "Email": "cbale@windustries.gov",
+    "PhoneNumber": "111-111-2211"
+  },
+  {
+    "SupervisorId": 0,
+    "Id": 1,
+    "Name": "Kristen Stewart",
+    "Email": "kstew@sparkpire.com",
+    "PhoneNumber": "111-111-3333"
+  },
+  {
+    "SupervisorId": 0,
+    "Id": 2,
+    "Name": "Michael Scott",
+    "Email": "mscott@dmifflin.com",
+    "PhoneNumber": "555-666-4444"
+  },
+  {
+    "SupervisorId": 2,
+    "Id": 3,
+    "Name": "Guy Fieri",
+    "Email": "mscott@dsmifflin.com",
+    "PhoneNumber": "123-456-7891"
+  },
+  {
+    "SupervisorId": 2,
+    "Id": 4,
+    "Name": "Jonathan Correa",
+    "Email": "jlc3939@gmail.com",
+    "PhoneNumber": "305-200-4121"
+  },
+  {
+    "SupervisorId": 1,
+    "Id": 5,
+    "Name": "Juan Abreut",
+    "Email": "jc@test.com",
+    "PhoneNumber": "305-333-1425"
+  },
+  {
+    "SupervisorId": 2,
+    "Id": 6,
+    "Name": "Giancarlo Gonzalez",
+    "Email": "ggonz@test.com",
+    "PhoneNumber": "123-456-4568"
+  },
+  {
+    "SupervisorId": 3,
+    "Id": 7,
+    "Name": "Pam Beasley",
+    "Email": "pbeasley@dmifflin.com",
+    "PhoneNumber": "123-029-1231"
+  },
+  {
+    "SupervisorId": 3,
+    "Id": 8,
+    "Name": "Jonathan Correa",
+    "Email": "jlc32939@gmail.com",
+    "PhoneNumber": "305-200-4123"
+  },
+  {
+    "SupervisorId": 3,
+    "Id": 9,
+    "Name": "Jonathan Correa",
+    "Email": "jlc392339@gmail.com",
+    "PhoneNumber": "305-200-4125"
+  },
+  {
+    "SupervisorId": 2,
+    "Id": 10,
+    "Name": "Test",
+    "Email": "test@t.com",
+    "PhoneNumber": "305-200-3122"
+  },
+  {
+    "SupervisorId": 2,
+    "Id": 11,
+    "Name": "Test2",
+    "Email": "test2@t.com",
+    "PhoneNumber": "390-232-2322"
+  },
+  {
+    "SupervisorId": 3,
+    "Id": 12,
+    "Name": "Test3",
+    "Email": "test3@t.com",
+    "PhoneNumber": "238-232-2222"
+  },
+  {
+    "SupervisorId": 2,
+    "Id": 13,
+    "Name": "Jonathan Correa",
+    "Email": "test@22.com",
+    "PhoneNumber": "304-230-1234"
+  },
+  {
+    "SupervisorId": 2,
+    "Id": 14,
+    "Name": "Test3",
+    "Email": "test2@t2.com",
+    "PhoneNumber": "304-222-3231"
+  },
+  {
+    "SupervisorId": 2,
+    "Id": 15,
+    "Name": "John Doe",
+    "Email": "jdoe@jdoe.com",
+    "PhoneNumber": "304-555-6122"
+  }
+]

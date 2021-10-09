@@ -1,0 +1,27 @@
+﻿{
+  {
+    "email": "jdoe@gmail.com",
+    "id": "1",
+    "name": "John Doe",
+    "phoneNumber": "123-456-7890",
+    "specialization": "Health Care",
+    "subscribers": " "
+  },
+  {
+    "id": "2",
+    "name": "Jane Doe",
+    "email": "jdoe2@gmail.com",
+    "phoneNumber": "987-654-3210",
+    "specialization": "Software Development",
+    "subscribers": "2, 3"
+  },
+  {
+    "id": "3",
+    "name": "Robert California",
+    "email": "rcalifornia@dmifflin.com",
+    "phoneNumber": "987-654-4587",
+    "specialization": "Management",
+    "subscribers": "1"
+  }
+
+}

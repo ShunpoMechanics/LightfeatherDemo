@@ -25,7 +25,8 @@ export class DataService {
               email: item.Email,
               phoneNumber: item.PhoneNumber,
               subscribers: item.Subscibers,
-              specialization: item.Specialization
+              specialization: item.Specialization,
+              subscriberString: item.SubscriberString
             }
             vals.push(supervisor);
           })

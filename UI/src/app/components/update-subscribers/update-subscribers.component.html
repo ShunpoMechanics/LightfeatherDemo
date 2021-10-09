@@ -52,7 +52,7 @@
                   <!-- Reset form button -->
                   <button mat-raised-button color="warn" type="reset" (click)="resetForm()">Reset Form</button>
                   <!-- Submit Form button -->
-                  <button mat-raised-button color="primary" [disabled]="!subscriberForm.valid" (click)="saveSubscribers()" type="submit">Submit</button>
+                  <button mat-raised-button color="primary" [disabled]="!subscriberForm.valid || selectedSupervisor.id == null" (click)="saveSubscribers()" type="submit">Submit</button>
             </form>
             </div>
             </div>

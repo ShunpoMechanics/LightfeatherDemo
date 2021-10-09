@@ -20,7 +20,7 @@
                   </ng-container>
                   <ng-container matColumnDef="subscribers">
                     <th mat-header-cell *matHeaderCellDef>Subscribers</th>
-                    <td mat-cell *matCellDef="let supervisor">{{stringifySubscribers(supervisor.subscribers)}}</td>
+                    <td mat-cell *matCellDef="let supervisor">{{supervisor.subscriberString}}</td>
                   </ng-container>
                   <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
                   <tr mat-row *matRowDef="let row-data; columns: columnsToDisplay"></tr>

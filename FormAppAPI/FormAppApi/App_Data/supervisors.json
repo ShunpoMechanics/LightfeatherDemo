@@ -1,0 +1,33 @@
+[
+  {
+    "Subscribers": [
+      0
+    ],
+    "Specialization": "Health Care",
+    "Id": 1,
+    "Name": "John Doe",
+    "Email": "jdoe@gmail.com",
+    "PhoneNumber": "123-456-7890"
+  },
+  {
+    "Subscribers": [
+      2,
+      3
+    ],
+    "Specialization": "Software Development",
+    "Id": 2,
+    "Name": "Jane Doe",
+    "Email": "jdoe2@gmail.com",
+    "PhoneNumber": "987-654-3210"
+  },
+  {
+    "Subscribers": [
+      1
+    ],
+    "Specialization": "Management",
+    "Id": 3,
+    "Name": "Robert California",
+    "Email": "rcalifornia@dmifflin.com",
+    "PhoneNumber": "987-654-4587"
+  }
+]
