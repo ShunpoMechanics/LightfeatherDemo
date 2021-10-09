@@ -1,0 +1,28 @@
+.container{
+    text-align: center;
+    width: 20%;
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 2%;
+    padding: 16px 16px 48px 16px;
+}
+
+.form-container{
+    width: 400 px; 
+    margin: 0 px auto; 
+    margin-top: 200 px
+}
+
+.form-field{
+    display: block
+}
+
+button:first-of-type {
+    margin-right: 16px;
+}
+
+button {
+    float: left;
+}

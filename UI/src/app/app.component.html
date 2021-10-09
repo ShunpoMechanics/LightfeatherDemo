@@ -1,3 +1,8 @@
 <router-outlet>
-    <app-update-subscribers></app-update-subscribers>
+    <mat-toolbar style="position: fixed;">
+        <span>LightFeather.IO Demo</span>
+        <span class="spacer"></span>
+        <span [routerLink]="'supervisor-list'">Supervisor List</span>
+        <span [routerLink]="'subscriber-form'" style="margin: auto 16px">Subscribe to a Supervisor</span>
+    </mat-toolbar>
 </router-outlet>

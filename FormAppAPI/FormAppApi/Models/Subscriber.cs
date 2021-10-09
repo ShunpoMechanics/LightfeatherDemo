@@ -7,11 +7,11 @@ namespace FormAppApi.Models
 {
     public class Subscriber : User
     {
-        private Supervisor supervisor;
-        public Supervisor Supervisor
+        private int supervisorId;
+        public int SupervisorId
         {
-            get { return supervisor; }
-            set { supervisor = value; }
+            get { return supervisorId; }
+            set { supervisorId = value; }
         }
     }
 }

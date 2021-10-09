@@ -1,16 +1,12 @@
 <html>
     <body>
         <main>
-            <!-- Reset form button -->
-            <div class="example-container">
-            <button (click)="resetForm()">Reset Form</button>
+            <div class="container">
                 <div class="form-container">
-                  <form [formGroup]="subscriberForm" (submit)="saveSubscribers()">
-                    <!-- 
-                    Dropdown of Supervisors
-
-                    Populate readonly inputs to display the Supervisor's information
-                 -->
+                <form [formGroup]="subscriberForm">
+                
+                  <h3>Supervisor Information</h3>
+                  <!-- Dropdown of available supervisors -->
                  <mat-form-field appearance="outline">
                     <mat-label>Choose a Supervisor</mat-label>
                     <mat-select [(ngModel)]="selectedSupervisor" [ngModelOptions]="{standalone: true}">
@@ -20,6 +16,7 @@
                     </mat-select>
                   </mat-form-field>
 
+                  <!-- Information of that Supervisor for clarity -->
                   <mat-form-field class="form-field" appearance="outline">
                     <mat-label> Phone Number
                     </mat-label>
@@ -32,6 +29,8 @@
                     <input readonly matInput [(ngModel)]="selectedSupervisor.email" [ngModelOptions]="{standalone: true}">
                   </mat-form-field>
 
+                  <h3>Subscriber Information</h3>
+                  <!-- User Input Form -->
                   <mat-form-field class="form-field" appearance="outline">
                     <mat-label> Name
                     </mat-label>
@@ -49,7 +48,11 @@
                     </mat-label>
                     <input matInput formControlName="phoneNumber">
                   </mat-form-field>
-                  <button mat-raised-button color="primary" type="submit">Log In</button>
+
+                  <!-- Reset form button -->
+                  <button mat-raised-button color="warn" type="reset" (click)="resetForm()">Reset Form</button>
+                  <!-- Submit Form button -->
+                  <button mat-raised-button color="primary" [disabled]="!subscriberForm.valid" (click)="saveSubscribers()" type="submit">Submit</button>
             </form>
             </div>
             </div>

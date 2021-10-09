@@ -11,5 +11,5 @@ export interface Supervisor extends User {
 }
 
 export interface Subscriber extends User {
-    supervisor?: Supervisor;
+    supervisorId?: number;
 }

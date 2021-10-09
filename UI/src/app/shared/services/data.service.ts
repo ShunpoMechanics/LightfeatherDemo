@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
-import { Supervisor } from '../models/models';
+import { Supervisor, Subscriber } from '../models/models';
 
 @Injectable({
   providedIn: 'root'
@@ -35,7 +35,7 @@ export class DataService {
     ));
   }
 
-  public saveSubscribers(supervisor: Supervisor) : Observable<Supervisor[]> {
-    return this.http.put<Supervisor[]>(this.apiUrl + 'Supervisor', supervisor);
+  public saveSubscribers(subscriber: Subscriber) : Observable<Supervisor[]> {
+    return this.http.put<Supervisor[]>(this.apiUrl + 'Supervisor/UpdateSupervisor', subscriber);
   }
 }

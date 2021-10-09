@@ -6,7 +6,7 @@ import { DataService } from 'src/app/shared/services/data.service';
 @Component({
     selector: 'app-update-subscribers',
     templateUrl: './update-subscribers.component.html',
-    styleUrls: ['./update-subscribers.component.css'],
+    styleUrls: ['./update-subscribers.component.scss'],
     providers: [DataService]
 })
 
@@ -45,8 +45,8 @@ export class UpdateSubscriberFormComponent implements OnInit{
 
     saveSubscribers() {
         this.subscriber = this.subscriberForm.value;
-        this.subscriber.supervisor = this.selectedSupervisor;
-        console.log(this.subscriberForm.value);
+        this.subscriber.supervisorId = this.selectedSupervisor.id;
+        this.data.saveSubscribers(this.subscriber).subscribe();
     }
 
     public resetForm() {
