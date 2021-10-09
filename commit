@@ -1,0 +1,25 @@
+# Please enter the commit message for your changes. Lines starting
+# git rm --cached FormAppUI with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   .vs/DemoForLightfeatherIO/v16/.suo
+#	new file:   DemoForLightfeatherIO.sln
+#	new file:   DemoForLightfeatherIO/DemoForLightfeatherIO.csproj
+#	new file:   DemoForLightfeatherIO/Program.cs
+#	new file:   DemoForLightfeatherIO/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+#	new file:   DemoForLightfeatherIO/obj/Debug/netcoreapp3.1/DemoForLightfeatherIO.AssemblyInfo.cs
+#	new file:   DemoForLightfeatherIO/obj/Debug/netcoreapp3.1/DemoForLightfeatherIO.AssemblyInfoInputs.cache
+#	new file:   DemoForLightfeatherIO/obj/Debug/netcoreapp3.1/DemoForLightfeatherIO.assets.cache
+#	new file:   DemoForLightfeatherIO/obj/Debug/netcoreapp3.1/DemoForLightfeatherIO.csproj.AssemblyReference.cache
+#	new file:   DemoForLightfeatherIO/obj/DemoForLightfeatherIO.csproj.nuget.dgspec.json
+#	new file:   DemoForLightfeatherIO/obj/DemoForLightfeatherIO.csproj.nuget.g.props
+#	new file:   DemoForLightfeatherIO/obj/DemoForLightfeatherIO.csproj.nuget.g.targets
+#	new file:   DemoForLightfeatherIO/obj/project.assets.json
+#	new file:   DemoForLightfeatherIO/obj/project.nuget.cache
+#	new file:   FormAppUI
+#
