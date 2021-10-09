@@ -1,0 +1,58 @@
+<html>
+    <body>
+        <main>
+            <!-- Reset form button -->
+            <div class="example-container">
+            <button (click)="resetForm()">Reset Form</button>
+                <div class="form-container">
+                  <form [formGroup]="subscriberForm" (submit)="saveSubscribers()">
+                    <!-- 
+                    Dropdown of Supervisors
+
+                    Populate readonly inputs to display the Supervisor's information
+                 -->
+                 <mat-form-field appearance="outline">
+                    <mat-label>Choose a Supervisor</mat-label>
+                    <mat-select [(ngModel)]="selectedSupervisor" [ngModelOptions]="{standalone: true}">
+                      <mat-option *ngFor="let item of supervisors" [value]="item">
+                        {{item.name}}
+                      </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+
+                  <mat-form-field class="form-field" appearance="outline">
+                    <mat-label> Phone Number
+                    </mat-label>
+                    <input readonly matInput [(ngModel)]="selectedSupervisor.phoneNumber" [ngModelOptions]="{standalone: true}">
+                  </mat-form-field>
+
+                  <mat-form-field class="form-field" appearance="outline">
+                    <mat-label> E-mail
+                    </mat-label>
+                    <input readonly matInput [(ngModel)]="selectedSupervisor.email" [ngModelOptions]="{standalone: true}">
+                  </mat-form-field>
+
+                  <mat-form-field class="form-field" appearance="outline">
+                    <mat-label> Name
+                    </mat-label>
+                    <input matInput formControlName="name">
+                  </mat-form-field>
+
+                  <mat-form-field class="form-field" appearance="outline">
+                    <mat-label> E-mail
+                    </mat-label>
+                    <input matInput formControlName="email">
+                  </mat-form-field>
+
+                  <mat-form-field class="form-field" appearance="outline">
+                    <mat-label> Phone Number
+                    </mat-label>
+                    <input matInput formControlName="phoneNumber">
+                  </mat-form-field>
+                  <button mat-raised-button color="primary" type="submit">Log In</button>
+            </form>
+            </div>
+            </div>
+        </main>
+    </body>
+</html>
