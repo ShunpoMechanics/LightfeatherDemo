@@ -83,3 +83,6 @@ C:\Users\Jonathan\source\repos\DemoForLightfeatherIO\FormAppAPI\FormAppApi\obj\D
 C:\Users\Jonathan\source\repos\DemoForLightfeatherIO\FormAppAPI\FormAppApi\obj\Debug\FormAppApi.csproj.CopyComplete
 C:\Users\Jonathan\source\repos\DemoForLightfeatherIO\FormAppAPI\FormAppApi\obj\Debug\FormAppApi.dll
 C:\Users\Jonathan\source\repos\DemoForLightfeatherIO\FormAppAPI\FormAppApi\obj\Debug\FormAppApi.pdb
+C:\Users\Jonathan\source\repos\DemoForLightfeatherIO\FormAppAPI\FormAppApi\bin\System.Web.Cors.dll
+C:\Users\Jonathan\source\repos\DemoForLightfeatherIO\FormAppAPI\FormAppApi\bin\System.Web.Http.Cors.dll
+C:\Users\Jonathan\source\repos\DemoForLightfeatherIO\FormAppAPI\FormAppApi\bin\System.Web.Http.Cors.xml

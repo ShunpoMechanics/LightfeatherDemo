@@ -7,17 +7,26 @@ namespace FormAppApi.Models
 {
     public class Supervisor : User
     {
-        public Supervisor(string name, string email, string phoneNumber) 
+        public Supervisor(string name, string email, string phoneNumber, string specialization) 
         {
             Name = name;
             Email = email;
             PhoneNumber = phoneNumber;
+            Specialization = specialization;
         }
         private List<Subscriber> subscribers;
-        private List<Subscriber> Subscribers
+        public List<Subscriber> Subscribers
         { 
             get { return subscribers; }
             set { subscribers = value; }
+        }
+
+        private string specialization;
+
+        public string Specialization
+        {
+            get { return specialization; }
+            set { specialization = value; }
         }
     }
 }

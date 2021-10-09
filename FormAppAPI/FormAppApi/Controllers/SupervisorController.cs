@@ -4,15 +4,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace FormAppApi.Controllers
 {
     [RoutePrefix("api/Supervisor")]
     public class SupervisorController : ApiController
     {
-        private List<Supervisor> supervisors = new List<Supervisor> {new Supervisor("John Doe", "jdoe@gmail.com", "123-456-7890"), new Supervisor("Jane Doe", "jdoe2@gmail.com", "098-765-4321")};
+        private List<Supervisor> supervisors = new List<Supervisor> {new Supervisor("John Doe", "jdoe@gmail.com", "123-456-7890", "Health Care"), new Supervisor("Jane Doe", "jdoe2@gmail.com", "098-765-4321", "Software Development")};
 
         [HttpGet]
+        //[EnableCors("*", "*", "*")]
         public IHttpActionResult GetSupervisors()
         { 
             try
@@ -27,6 +29,7 @@ namespace FormAppApi.Controllers
         }
 
         [HttpPut]
+        //[EnableCors("*", "*", "*")]
         [Route("UpdateSupervisor")]
         public IHttpActionResult UpdateSupervisorNotificationList(Supervisor supervisor) 
         {
