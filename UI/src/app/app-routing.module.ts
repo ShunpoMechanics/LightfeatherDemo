@@ -4,6 +4,7 @@ import { SupervisorList } from './components/supervisor-table/supervisor-list.co
 import { UpdateSubscriberFormComponent } from './components/update-subscribers/update-subscribers.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/supervisor-list', pathMatch: 'full' },
   { path: 'subscriber-form', component: UpdateSubscriberFormComponent },
   { path: 'supervisor-list', component: SupervisorList}
 ];
